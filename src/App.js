@@ -11,7 +11,7 @@ function App() {
   //   let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
 
   //   document.querySelector(".days").innerHTML = days;
-  // })
+  // }, 1000)
 
   return (
     <div className="App">
