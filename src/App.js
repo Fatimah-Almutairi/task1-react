@@ -8,7 +8,9 @@ function App() {
 
     let dateDiff = countDownDate - dateNow;
 
-    let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24)
+    let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24);
+
+    document.querySelector(".days").innerHTML = days;
   })
 
   return (
