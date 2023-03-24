@@ -7,6 +7,8 @@ function App() {
     let dateNow = new Date().getTime();
 
     let dateDiff = countDownDate - dateNow;
+
+    let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24)
   })
 
   return (
