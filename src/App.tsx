@@ -11,7 +11,8 @@ function App() {
 
     let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
     let hours = Math.floor ((dateDiff % ( 1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes
+    let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / ( 1000 * 60));
+    let seconds 
   }, 1000)
   return (
     <div className="App">
