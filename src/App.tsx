@@ -1,4 +1,5 @@
 
+import { number } from 'zod';
 import './App.css'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     let seconds = Math.floor(( dateDiff % (1000 * 60)) / (1000 * 60 ));
   }, 1000);
 
-  
+  console.log(hours);
   return (
     <div className="App">
       
